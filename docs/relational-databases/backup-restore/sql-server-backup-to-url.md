@@ -110,6 +110,8 @@ Backup of a large database to blob storage is subject to the limitations listed 
 -   Specifying **MAXTRANSFERSIZE** is not supported page blobs. 
   
 -   Specifying backupset options - **RETAINDAYS** and **EXPIREDATE** are not supported.  
+
+-   Restore from secondary region is not supported.
   
 -   [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] has a maximum limit of 259 characters for a backup device name. The BACKUP TO URL consumes 36 characters for the required elements used to specify the URL - 'https://.blob.core.windows.net//.bak', leaving 223 characters for account, container, and blob names put together.  
   
