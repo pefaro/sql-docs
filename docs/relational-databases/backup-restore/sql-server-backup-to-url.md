@@ -104,6 +104,8 @@ Backup of a large database to blob storage is subject to the limitations listed 
 -   Appending to existing backup blobs is not supported. Backups to an existing blob can only be overwritten by using the **WITH FORMAT** option. However, when using file-snapshot backups (using the **WITH FILE_SNAPSHOT** argument), the **WITH FORMAT** argument is not permitted to avoid leaving orphaned file-snapshots that were created with the original file-snapshot backup.  
   
 -   Backup to multiple blobs in a single backup operation is only supported using block blobs and using a Shared Access Signature (SAS) token rather than the storage account key for the SQL Credential.  
+
+-   Restore from secondary region is not supported
   
 -   Specifying **BLOCKSIZE** is not supported for page blobs. 
   
