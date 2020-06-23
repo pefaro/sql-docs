@@ -108,6 +108,10 @@ You can use the Azure portal to create the key vault and then add an Azure AD pr
     On the **Create key vault** pane, select the **Basics** tab, enter the appropriate values, and then select **Review + create**.
 
     ![Screenshot of the "Create key vault" pane](../../../relational-databases/security/encryption/media/ekm/ekm-part2-create-key-vault.png)  
+    
+1.a Create a Key 
+
+    
 
 1.  On the **Access policies** pane, select **Add Access Policy**.
 
